@@ -1,16 +1,30 @@
 fileFormatVersion: 2
-guid: d65889ecde24da74fa7eb8ea422c9aff
-timeCreated: 1481327231
+guid: 35c6b852dc923444cacafad52dfdb7e5
+timeCreated: 1481322759
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Bust 1
+    100004: Bust_rt_jnt
+    100006: Head_move_jnt
+    100008: Tran_ctrl
+    100010: X_rot_ctrl
+    100012: Y_tot_ctrl
+    100014: Z_rot_ctrl
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: house
+    400002: Bust 1
+    400004: Bust_rt_jnt
+    400006: Head_move_jnt
+    400008: Tran_ctrl
+    400010: X_rot_ctrl
+    400012: Y_tot_ctrl
+    400014: Z_rot_ctrl
+    4300000: Bust
+    7400000: Take 001
     9500000: //RootNode
+    13700000: Bust 1
   materials:
     importMaterials: 1
     materialName: 0
@@ -30,11 +44,53 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bust 1
+        weight: 1
+      - path: Bust_rt_jnt
+        weight: 1
+      - path: Bust_rt_jnt/Head_move_jnt
+        weight: 1
+      - path: Tran_ctrl
+        weight: 1
+      - path: Tran_ctrl/X_rot_ctrl
+        weight: 1
+      - path: Tran_ctrl/Y_tot_ctrl
+        weight: 1
+      - path: Tran_ctrl/Z_rot_ctrl
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 50
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -66,7 +122,7 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: Bust_rt_jnt
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
