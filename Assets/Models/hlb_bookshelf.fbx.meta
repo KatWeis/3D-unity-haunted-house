@@ -56,7 +56,61 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bookshelf 1
+        weight: 1
+      - path: bookshelf_ctrl
+        weight: 1
+      - path: bookshelf_ctrl/books1_ctrl
+        weight: 1
+      - path: bookshelf_ctrl/books2_ctrl
+        weight: 1
+      - path: bookshelf_ctrl/books3_ctrl
+        weight: 1
+      - path: bookshelf_ctrl/books4_ctrl
+        weight: 1
+      - path: bookshelf_ctrl/falling_book_ctrl
+        weight: 1
+      - path: bookshelf_jnt
+        weight: 1
+      - path: bookshelf_jnt/books1_jnt
+        weight: 1
+      - path: bookshelf_jnt/books2_jnt
+        weight: 1
+      - path: bookshelf_jnt/books3_jnt
+        weight: 1
+      - path: bookshelf_jnt/books4_jnt
+        weight: 1
+      - path: bookshelf_jnt/falling_book_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
