@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: f1e2ec97f21e96146871aebfe4f91285
-timeCreated: 1481424325
+guid: 6fc431a65c0a8fe469196e858bc76a1a
+timeCreated: 1481749015
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -8,19 +8,20 @@ ModelImporter:
     100000: candelabra_ctrl
     100002: candelabra_jnt
     100004: //RootNode
-    100006: table 1
+    100006: table1
     100008: table_ctrl
     100010: table_jnt
     400000: candelabra_ctrl
     400002: candelabra_jnt
     400004: //RootNode
-    400006: table 1
+    400006: table1
     400008: table_ctrl
     400010: table_jnt
-    4300000: table
+    4300000: table1
     7400000: Take 001
     9500000: //RootNode
-    13700000: table 1
+    11100000: //RootNode
+    13700000: table1
   materials:
     importMaterials: 1
     materialName: 0
@@ -46,12 +47,12 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 1
       lastFrame: 120
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -67,7 +68,7 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: table 1
+      - path: table1
         weight: 1
       - path: table_ctrl
         weight: 1
@@ -114,10 +115,10 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: table_ctrl
+    rootMotionBoneName: table_jnt
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
