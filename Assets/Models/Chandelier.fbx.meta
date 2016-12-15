@@ -12,6 +12,8 @@ ModelImporter:
     100008: X_rot_ctrl
     100010: XZ_tran_ctrl
     100012: Z_rot_ctrl
+    100014: pivot_jnt
+    100016: swing_jnt
     400000: chand_rt_jnt
     400002: chand_swing_jnt
     400004: //RootNode
@@ -19,9 +21,12 @@ ModelImporter:
     400008: X_rot_ctrl
     400010: XZ_tran_ctrl
     400012: Z_rot_ctrl
+    400014: pivot_jnt
+    400016: swing_jnt
     4300000: Chandelier
     7400000: Take 001
     9500000: //RootNode
+    11100000: //RootNode
     13700000: Chandelier 1
   materials:
     importMaterials: 1
@@ -48,7 +53,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 1
       lastFrame: 360
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -118,10 +123,10 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: chand_rt_jnt
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

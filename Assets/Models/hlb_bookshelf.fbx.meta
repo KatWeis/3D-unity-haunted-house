@@ -36,6 +36,7 @@ ModelImporter:
     4300000: bookshelf
     7400000: Take 001
     9500000: //RootNode
+    11100000: //RootNode
     13700000: bookshelf 1
   materials:
     importMaterials: 1
@@ -66,7 +67,7 @@ ModelImporter:
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 0
+      loop: 1
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
@@ -149,7 +150,7 @@ ModelImporter:
     rootMotionBoneName: bookshelf_ctrl
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
