@@ -36,6 +36,7 @@ ModelImporter:
     4300000: bookshelf1
     7400000: Take 001
     9500000: //RootNode
+    11100000: //RootNode
     13700000: bookshelf1
   materials:
     importMaterials: 1
@@ -56,7 +57,61 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bookshelf1
+        weight: 1
+      - path: bookshelf_ctrl
+        weight: 1
+      - path: bookshelf_ctrl/books1_ctrl
+        weight: 1
+      - path: bookshelf_ctrl/books2_ctrl
+        weight: 1
+      - path: bookshelf_ctrl/books3_ctrl
+        weight: 1
+      - path: bookshelf_ctrl/books4_ctrl
+        weight: 1
+      - path: bookshelf_ctrl/falling_book_ctrl
+        weight: 1
+      - path: bookshelf_jnt
+        weight: 1
+      - path: bookshelf_jnt/books1_jnt
+        weight: 1
+      - path: bookshelf_jnt/books2_jnt
+        weight: 1
+      - path: bookshelf_jnt/books3_jnt
+        weight: 1
+      - path: bookshelf_jnt/books4_jnt
+        weight: 1
+      - path: bookshelf_jnt/falling_book_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -92,10 +147,10 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: bookshelf_jnt
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
